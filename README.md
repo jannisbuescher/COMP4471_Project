@@ -1,5 +1,5 @@
-# COMP4211_Project
-Project for COMP4211 HKUST
+# COMP4471_Project
+Project for COMP4471 HKUST
 Group:
 August Birch, Geunyoung Han, Jannis Buescher
 
