@@ -129,3 +129,7 @@ dmypy.json
 .pyre/
 testgrounds.py
 *.jpg
+
+.DS_Store
+
+.DS_Store
