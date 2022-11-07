@@ -28,10 +28,10 @@ for filename in os.listdir(directory):
                     name =  o.find('name').text,
                     ymax =  float(o.find('ymax').text),
                     ymin =  float(o.find('ymin').text),
-                    xmax =  float(o.find('xmin').text),
-                    xmin =  float(o.find('xmax').text),
+                    xmax =  float(o.find('xmax').text),
+                    xmin =  float(o.find('xmin').text),
                     d = {
-                        'pictureID': pictureID[0], #Removes ".xml" from the file names
+                        'pictureID': pictureID, #Removes ".xml" from the file names
                         'name': name[0],
                         'ymax': ymax[0],
                         'ymin': ymin[0],
