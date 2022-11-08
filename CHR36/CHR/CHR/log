@@ -1,0 +1,369 @@
+/Users/hgy/opt/anaconda3/bin/python: Error while finding module specification for 'CHR.main' (ModuleNotFoundError: No module named 'CHR')
+/Users/hgy/opt/anaconda3/envs/chr/bin/python: Error while finding module specification for 'CHR.main' (ImportError: No module named 'CHR')
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/__init__.py", line 1, in <module>
+    from . import dataset, meter, engine, transform, logger
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/logger/__init__.py", line 1, in <module>
+    from .visdomlogger import VisdomLogger, VisdomPlotLogger, VisdomSaver, VisdomTextLogger
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/logger/visdomlogger.py", line 3, in <module>
+    import visdom
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/visdom/__init__.py", line 411
+    self.env_list={f'{env}'}      # default env
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/__init__.py", line 1, in <module>
+    from . import dataset, meter, engine, transform, logger
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/logger/__init__.py", line 1, in <module>
+    from .visdomlogger import VisdomLogger, VisdomPlotLogger, VisdomSaver, VisdomTextLogger
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/torchnet/logger/visdomlogger.py", line 3, in <module>
+    import visdom
+  File "/Users/hgy/opt/anaconda3/envs/sixray/lib/python3.5/site-packages/visdom/__init__.py", line 411
+    self.env_list={f'{env}'}      # default env
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/lib/python3.9/runpy.py", line 188, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/lib/python3.9/runpy.py", line 111, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ImportError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ImportError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 11, in <module>
+    import torchvision.transforms as transforms
+ImportError: No module named 'torchvision'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 12, in <module>
+    from tqdm import tqdm
+ImportError: No module named 'tqdm'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/site-packages/torchnet/__init__.py", line 1, in <module>
+    from . import dataset, meter, engine, transform, logger
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/site-packages/torchnet/logger/__init__.py", line 1, in <module>
+    from .visdomlogger import VisdomLogger, VisdomPlotLogger, VisdomSaver, VisdomTextLogger
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/site-packages/torchnet/logger/visdomlogger.py", line 3, in <module>
+    import visdom
+  File "/Users/hgy/opt/anaconda3/envs/chr/lib/python3.5/site-packages/visdom/__init__.py", line 411
+    self.env_list={f'{env}'}      # default env
+                          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  /Users/distiller/project/conda/conda-bld/pytorch_1640811914285/work/torch/csrc/utils/tensor_numpy.cpp:68.)
+  _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ModuleNotFoundError: No module named 'torchnet'
+/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  /Users/distiller/project/conda/conda-bld/pytorch_1640811914285/work/torch/csrc/utils/tensor_numpy.cpp:68.)
+  _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/engine.py", line 10, in <module>
+    import torchnet as tnt
+ModuleNotFoundError: No module named 'torchnet'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/engine.py", line 12, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 6, in <module>
+    from engine import MultiLabelMAPEngine
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/engine.py", line 15, in <module>
+    from CHR.util import AveragePrecisionMeter, Warp
+ModuleNotFoundError: No module named 'CHR'
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 8, in <module>
+    from ray import XrayClassification
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/ray.py", line 12, in <module>
+    from CHR import util
+ModuleNotFoundError: No module named 'CHR'
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+python: can't open file 'main': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "main.py", line 111, in <module>
+    main_ray()
+  File "main.py", line 84, in main_ray
+    train_dataset = XrayClassification(args.data, 'train')
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/ray.py", line 95, in __init__
+    os.makedirs(path_csv)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  [Previous line repeated 2 more times]
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/DATA'
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+Traceback (most recent call last):
+  File "main.py", line 111, in <module>
+    main_ray()
+  File "main.py", line 84, in main_ray
+    train_dataset = XrayClassification(args.data, 'train')
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/ray.py", line 95, in __init__
+    os.makedirs(path_csv)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  [Previous line repeated 2 more times]
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/DATA'
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'main.py' (AttributeError: module 'main' has no attribute '__path__')
+Traceback (most recent call last):
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 111, in <module>
+    main_ray()
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/main.py", line 84, in main_ray
+    train_dataset = XrayClassification(args.data, 'train')
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/ray.py", line 95, in __init__
+    os.makedirs(path_csv)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  [Previous line repeated 2 more times]
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/DATA'
+Traceback (most recent call last):
+  File "main.py", line 111, in <module>
+    main_ray()
+  File "main.py", line 84, in main_ray
+    train_dataset = XrayClassification(args.data, 'train')
+  File "/Users/hgy/Desktop/hgy/HKUST/Class/Computer_Vision/Group_Project/CHR36/CHR/CHR/ray.py", line 95, in __init__
+    os.makedirs(path_csv)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 210, in makedirs
+    makedirs(head, mode, exist_ok)
+  [Previous line repeated 2 more times]
+  File "/Users/hgy/opt/anaconda3/envs/chr36/lib/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/DATA'
+/Users/hgy/opt/anaconda3/envs/chr36/bin/python: Error while finding module specification for 'CHR.main' (ModuleNotFoundError: No module named 'CHR')

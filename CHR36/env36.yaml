@@ -1,0 +1,11 @@
+name: CHR
+channels:
+  - pytorch
+dependencies:
+  - python=3.6
+  - torchvision
+  - tqdm
+  - pip:
+    - torchnet
+    - pytorch=0.3.1
+  -prefix: /opt/conda/nvs/env/
