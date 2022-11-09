@@ -13,7 +13,9 @@ directory = 'positive-Annotation'
  
 objects = []
 objects_forYolo = []
-object_names = ["Knife", "Gun", "Wrench", "Pliers", "Scissors"]
+
+#TODO turn "Name" into numbers using this list:
+object_names = ["Knife", "Gun", "Wrench", "Pliers", "Scissors"] 
 for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     if os.path.isfile(f):
@@ -22,10 +24,13 @@ for filename in os.listdir(directory):
  
             Bs_data = BeautifulSoup(data, "xml")
             object = Bs_data.find_all('object')
+            img_width = float(Bs_data.width.contents[0])
+            img_height = float(Bs_data.height.contents[0])
             for o in object:
                 try: #some of the xml files contained empty objects
                     pictureID = filename[:-4]
                     name =  o.find('name').text,
+                    nameIDX = object_names.index(name[0])
                     ymax =  float(o.find('ymax').text),
                     ymin =  float(o.find('ymin').text),
                     xmax =  float(o.find('xmax').text),
@@ -38,14 +43,16 @@ for filename in os.listdir(directory):
                         'xmax': xmax[0],
                         'xmin': xmin[0],
                     }
-
+#Boundingbox coordinates must be in normalized xywh format 
+# (from 0 - 1). If your boxes are in pixels, divide center_x 
+# and bbox_width by image width, and center_y and bbox_height by image height.
                     dyolo ={
                         'pictureID': pictureID,
-                        'class_id': name[0],
-                        'center_x':    xmin[0]+(xmax[0]-xmin[0])/2,
-                        'center_y':    ymin[0]+(ymax[0]-ymin[0])/2,
-                        'bbox_width':  (xmax[0]-xmin[0]),
-                        'bbox_height': (ymax[0]-ymin[0]),
+                        'class_id':  nameIDX,
+                        'center_x':    (xmin[0]+(xmax[0]-xmin[0])/2)   / img_width,
+                        'center_y':    (ymin[0]+(ymax[0]-ymin[0])/2)   / img_height,
+                        'bbox_width':  (xmax[0]-xmin[0])               / img_width,
+                        'bbox_height': (ymax[0]-ymin[0])               / img_height,
                     }
 
                     objects.append(d)
@@ -54,7 +61,7 @@ for filename in os.listdir(directory):
                     pass
 
 df = pd.DataFrame.from_dict(objects)
-df_yolo = pd.DataFrame.from_dict(objects_forYolo)
+df_yolo = pd.DataFrame.from_dict(objects_forYolo, )
 
 df.to_excel('objects.xlsx')
 df_yolo.to_excel('objectsYolo.xlsx')
