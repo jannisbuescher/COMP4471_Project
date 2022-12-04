@@ -134,3 +134,7 @@ testgrounds.py
 
 .DS_Store
 custom_dataset.zip
+*.zip
+playground.py
+*.json
+*.pt
