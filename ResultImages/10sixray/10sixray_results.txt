@@ -1,0 +1,68 @@
+Namespace(batch_size=32, conf_thres=0.03, config_file='', data='/content/drive/MyDrive/YOLOv6/data/dataset.yaml', device='0', do_coco_metric=True, do_pr_metric=True, eval_config_file='./configs/experiment/eval_640_repro.py', force_no_pad=False, half=False, img_size=640, iou_thres=0.65, letterbox_return_int=False, name='exp', not_infer_on_rect=False, plot_confusion_matrix=True, plot_curve=True, reproduce_640_eval=False, save_dir='runs/val/', scale_exact=False, task='val', test_load_size=640, verbose=True, weights='/content/drive/MyDrive/YOLOv6/Trained Weights/best_ckpt.pt')
+Loading checkpoint from /content/drive/MyDrive/YOLOv6/Trained Weights/best_ckpt.pt
+
+Fusing model...
+/usr/local/lib/python3.8/dist-packages/torch/functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2894.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Switch model to deploy modality.
+Model Summary: Params: 58.47M, Gflops: 143.80
+Val: Checking formats of images with 2 process(es): 
+1 image(s) corrupted: 100% 18199/18199 [00:55<00:00, 330.04it/s]
+WARNING: ../content/drive/MyDrive/YOLOv6/custom_dataset/images/val/N0076669.jpg: ignoring corrupt image: image file is truncated (60 bytes not processed)
+Val: Checking formats of labels with 2 process(es): 
+1762 label(s) found, 16436 label(s) missing, 0 label(s) empty, 0 invalid label files: 100% 18198/18198 [04:11<00:00, 72.26it/s]
+Convert to COCO format
+100% 18198/18198 [00:00<00:00, 246922.51it/s]
+Convert to COCO format finished. Resutls saved in ../content/drive/MyDrive/YOLOv6/custom_dataset/annotations/instances_val.json
+Val: Final numbers of valid images: 18198/ labels: 18198. 
+312.4s for dataset initialization.
+Inferencing model in val datasets.: 100% 569/569 [09:30<00:00,  1.00s/it]
+IOU 50 best mF1 thershold near 0.741.
+Class                 Images      Labels     P@.5iou     R@.5iou    F1@.5iou      mAP@.5  mAP@.5:.95
+all                    18198        3546       0.806       0.739       0.767         0.8       0.586
+Knife                  18198         632       0.752       0.706       0.728       0.759        0.54
+Gun                    18198         962       0.954       0.911       0.932       0.966       0.718
+Wrench                 18198         658       0.873       0.636       0.736        0.79       0.589
+Pliers                 18198        1057       0.868       0.745       0.802       0.845        0.62
+Scissors               18198         237       0.586       0.696       0.636        0.64       0.463
+
+Evaluating speed.
+Average pre-process time: 0.15 ms
+Average inference time: 25.70 ms
+Average NMS time: 0.94 ms
+
+Evaluating mAP by pycocotools.
+Saving runs/val/exp/predictions.json...
+loading annotations into memory...
+Done (t=0.04s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=5.79s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.13s).
+Accumulating evaluation results...
+DONE (t=12.77s).
+Class           Labeled_images      Labels     P@.5iou     R@.5iou    F1@.5iou      mAP@.5  mAP@.5:.95
+all                     1762        3546       0.768        0.74       0.754       0.797       0.584
+Knife                    404         632       0.728        0.74       0.734       0.755       0.538
+Gun                      604         962       0.938        0.93       0.934       0.961       0.714
+Wrench                   461         658       0.814        0.74       0.775       0.788       0.587
+Pliers                   787        1057       0.817        0.81       0.813       0.844       0.618
+Scissors                 208         237       0.718        0.62       0.666       0.639       0.462
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.797
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.687
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.011
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.616
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.523
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.740
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.750
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.100
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.693
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.764
+Results saved to runs/val/exp
